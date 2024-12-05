@@ -3,6 +3,7 @@ import logo from "../assets/images/logo.svg";
 
 const Header = () => {
   const headerRef = useRef();
+  // eslint-disable-next-line no-unused-vars
   const [links, setLinks] = useState(["Features", "Team", "Signin"]);
 
   useEffect(() => {
@@ -15,8 +16,8 @@ const Header = () => {
         headerRef.current.style.padding = "60px 0";
       }
     });
-  }),
-    [];
+  }, []);
+
   return (
     <header
       ref={headerRef}

@@ -7,3 +7,26 @@ body {
   background-color: #181e2a;
   height: 1000px;
 }
+
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+@layer utilities {
+  .custom-landing-heading {
+    @apply text-white text-[30px] md:text-[40px] font-semibold mb-[15px];
+  }
+}
+
+@layer {
+  .container {
+    @apply px-[30px] mx-auto;
+  }
+  .element-center {
+    @apply flex justify-center items-center;
+  }
+  .btn {
+    @apply bg-[#42b0d1] hover:bg-[#8cdae4] transition-all duration-200;
+  }
+}

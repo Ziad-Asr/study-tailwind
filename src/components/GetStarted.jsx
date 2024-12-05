@@ -1,7 +1,7 @@
 function GetStarted() {
   return (
     <section>
-      <div className="container ">
+      <div className="container">
         <div className="relative">
           <div className=" bg-[#1c2230] absolute left-[50%] translate-x-[-50%] top-[-150px] rounded-[5px] element-center flex-col  w-[865px] min-h-[275px]  max-w-full text-white text-center p-[30px]">
             <h3 className="text-[25px] md:text-[35px] font-semibold mb-[15px]">
